@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-29T08:52:29.899Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="CKmOiEdDK70fvu7P0xZ_" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-29T09:16:45.893Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="hYgq8sh_wDfAVKZH4ifF" version="20.8.13" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
     <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -307,8 +307,8 @@
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-59" value="1、判断礼包是否领取过；&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2、如果没有领取过，进行消耗；&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3、将页签ID、礼包ID的映射插入Map中&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4、判断该页签礼包是否领取完毕&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5、判断整个活动的礼包是否领取完毕&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5、播放公告；&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1000" y="1405" width="230" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="AIsaKvMPGWrzaPVtFiuC-64" value="疑难点：&lt;br&gt;1、中途策划增、删、该配置怎么办？-检查NewDraw一下&lt;br&gt;2、在disCondition为限制范围类型的时候，&lt;br&gt;如果超过范围，但是礼包并未领取完毕，怎么判断整个活动的&lt;br&gt;礼包是否领取完毕" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1000" y="1525" width="350" height="90" as="geometry" />
+        <mxCell id="AIsaKvMPGWrzaPVtFiuC-64" value="疑难点：&lt;br&gt;1、中途策划增、删、该配置怎么办？-检查NewDraw一下&lt;br&gt;2、在disCondition为限制范围类型的时候，&lt;br&gt;如果超过范围，但是礼包并未领取完毕，怎么判断整个活动的&lt;br&gt;礼包是否领取完毕&lt;br&gt;3、还是2的条件前提下，如果某个页签X达到显示条件，但是因为前&lt;br&gt;四个页签都还没有领取完毕，显示不了页签X；过了一段时间后，X不满足&lt;br&gt;显示条件了，那么X就永远显示不了。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1505" width="410" height="130" as="geometry" />
         </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-46" value="return Map映射" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
           <mxGeometry x="0.0014" relative="1" as="geometry">
@@ -361,17 +361,21 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AIsaKvMPGWrzaPVtFiuC-71" value="前四个符合disCondition并且礼包未完全领取的页签ID" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="AIsaKvMPGWrzaPVtFiuC-71" value="前四个符合disCondition并且&lt;br&gt;礼包未完全领取的页签ID" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry x="0.0035" relative="1" as="geometry">
             <mxPoint x="960" y="1460" as="sourcePoint" />
             <mxPoint x="675" y="1460" as="targetPoint" />
             <Array as="points">
               <mxPoint x="675.0699999999999" y="1460" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-72" value="针对第二个问题，只要前四页签为空，则说明活动领取完毕" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1000" y="1640" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsaKvMPGWrzaPVtFiuC-73" value="针对第三个问题，策划说显示不了就显示不了，&lt;br&gt;并保证不会配置这种有上限的；&lt;br&gt;如果配置的是开服天数的话，为无偏移模式" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1015" y="1670" width="280" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
