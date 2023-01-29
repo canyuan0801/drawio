@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-29T08:43:41.138Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="SPpg-jDiQz1DXSENsHvT" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-29T08:46:23.783Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="cMb6nMyqcqKSson_tUG4" version="20.8.13" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="819" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -167,7 +167,7 @@
           <mxGeometry x="960" y="30" width="100" height="35" as="geometry" />
         </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-1" value="前端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="200" y="840" width="100" height="780" as="geometry" />
+          <mxGeometry x="200" y="840" width="100" height="1210" as="geometry" />
         </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="AIsaKvMPGWrzaPVtFiuC-1">
           <mxGeometry x="45" y="100" width="10" height="400" as="geometry" />
@@ -184,7 +184,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="AIsaKvMPGWrzaPVtFiuC-1">
-          <mxGeometry x="45" y="570" width="10" height="140" as="geometry" />
+          <mxGeometry x="45" y="570" width="10" height="340" as="geometry" />
         </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-54" value="购买任意礼包" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="AIsaKvMPGWrzaPVtFiuC-1">
           <mxGeometry relative="1" as="geometry">
@@ -192,19 +192,28 @@
             <mxPoint x="45" y="580.0000000000032" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AIsaKvMPGWrzaPVtFiuC-61" value="根据返回Map将领取的礼包价格按钮变成印章" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=1.066;exitY=0.713;exitPerimeter=0;" edge="1" parent="AIsaKvMPGWrzaPVtFiuC-1">
+        <mxCell id="AIsaKvMPGWrzaPVtFiuC-61" value="更新页签or根据返回Map将领取的礼包价格按钮变成印章" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=1.066;exitY=0.713;exitPerimeter=0;" edge="1" parent="AIsaKvMPGWrzaPVtFiuC-1">
           <mxGeometry x="0.0039" relative="1" as="geometry">
-            <mxPoint x="60.66000000000008" y="650.0100000000002" as="sourcePoint" />
-            <mxPoint x="55" y="689.0999999999999" as="targetPoint" />
+            <mxPoint x="60.66000000000008" y="740.0100000000002" as="sourcePoint" />
+            <mxPoint x="55" y="779.0999999999999" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="110" y="650.0999999999999" />
-              <mxPoint x="110" y="689.0999999999999" />
+              <mxPoint x="110" y="740.0999999999999" />
+              <mxPoint x="110" y="779.0999999999999" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="AIsaKvMPGWrzaPVtFiuC-62" value="return 更新礼包or页签" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="AIsaKvMPGWrzaPVtFiuC-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-120" y="794" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="275" y="794" />
+            </Array>
+            <mxPoint x="40" y="790" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-3" value="后端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="915" y="850" width="100" height="900" as="geometry" />
+          <mxGeometry x="915" y="850" width="100" height="1260" as="geometry" />
         </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="AIsaKvMPGWrzaPVtFiuC-3">
           <mxGeometry x="45" y="70" width="10" height="200" as="geometry" />
@@ -212,20 +221,11 @@
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-56" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="AIsaKvMPGWrzaPVtFiuC-3">
           <mxGeometry x="45" y="570" width="10" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="AIsaKvMPGWrzaPVtFiuC-60" value="return 最新的前四页签（不一定有4个）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="AIsaKvMPGWrzaPVtFiuC-3">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-655" y="614" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="290" y="614" />
-            </Array>
-            <mxPoint x="55" y="610" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-9" value="玩家" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="20" y="840" width="100" height="820" as="geometry" />
+          <mxGeometry x="20" y="840" width="100" height="1180" as="geometry" />
         </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-10" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="AIsaKvMPGWrzaPVtFiuC-9">
-          <mxGeometry x="45" y="100" width="10" height="670" as="geometry" />
+          <mxGeometry x="45" y="100" width="10" height="970" as="geometry" />
         </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-24" value="点击进入活动页面" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" source="AIsaKvMPGWrzaPVtFiuC-10" target="AIsaKvMPGWrzaPVtFiuC-2">
           <mxGeometry relative="1" as="geometry">
@@ -236,13 +236,16 @@
           <mxGeometry x="1005" y="930" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-32" value="配置" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="620" y="840" width="100" height="910" as="geometry" />
+          <mxGeometry x="620" y="840" width="100" height="1230" as="geometry" />
         </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="AIsaKvMPGWrzaPVtFiuC-32">
           <mxGeometry x="45" y="230" width="10" height="200" as="geometry" />
         </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="AIsaKvMPGWrzaPVtFiuC-32">
           <mxGeometry x="45" y="130" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsaKvMPGWrzaPVtFiuC-69" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="AIsaKvMPGWrzaPVtFiuC-32">
+          <mxGeometry x="45" y="600" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-43" value="获取可以展示的页签" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -304,15 +307,6 @@
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-59" value="1、判断礼包是否领取过；&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;2、如果没有领取过，进行消耗；&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;3、将页签ID、礼包ID的映射插入Map中&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;4、判断该页签礼包是否领取完毕&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5、判断整个活动的礼包是否领取完毕&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;5、播放公告；&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1000" y="1405" width="230" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="AIsaKvMPGWrzaPVtFiuC-62" value="return 更新礼包or页签" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="1544" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="475" y="1544" />
-            </Array>
-            <mxPoint x="240" y="1540" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-64" value="疑难点：&lt;br&gt;1、中途策划增、删、该配置怎么办？-检查NewDraw一下&lt;br&gt;2、在disCondition为限制范围类型的时候，&lt;br&gt;如果超过范围，但是礼包并未领取完毕，怎么判断整个活动的&lt;br&gt;礼包是否领取完毕" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1000" y="1525" width="350" height="90" as="geometry" />
         </mxCell>
@@ -343,6 +337,35 @@
             <mxPoint x="675" y="990" as="targetPoint" />
             <Array as="points">
               <mxPoint x="675.0699999999999" y="990" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AIsaKvMPGWrzaPVtFiuC-60" value="return 最新的前四页签（不一定有4个）" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="1534" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1205" y="1534" />
+            </Array>
+            <mxPoint x="970" y="1530" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AIsaKvMPGWrzaPVtFiuC-70" value="return&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry x="0.0014" relative="1" as="geometry">
+            <mxPoint x="950" y="1480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="790" y="1480" />
+              <mxPoint x="745" y="1480" />
+            </Array>
+            <mxPoint x="680" y="1480" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AIsaKvMPGWrzaPVtFiuC-71" value="前四个符合disCondition并且礼包未完全领取的Map" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="1460" as="sourcePoint" />
+            <mxPoint x="675" y="1460" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="675.0699999999999" y="1460" />
             </Array>
           </mxGeometry>
         </mxCell>
