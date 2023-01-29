@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-01-29T08:33:37.754Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="FPgojzRdgb9iWONy9EX8" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-29T08:43:41.138Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="SPpg-jDiQz1DXSENsHvT" version="20.8.13" type="github">
   <diagram name="Page-1" id="13e1069c-82ec-6db2-03f1-153e76fe0fe0">
-    <mxGraphModel dx="1434" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -174,11 +174,11 @@
         </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-52" value="根据返回Map将领取的礼包价格按钮变成印章" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;elbow=vertical;edgeStyle=orthogonalEdgeStyle;curved=1;exitX=1.066;exitY=0.713;exitPerimeter=0;" edge="1" parent="AIsaKvMPGWrzaPVtFiuC-1">
           <mxGeometry x="0.0039" relative="1" as="geometry">
-            <mxPoint x="68.16000000000008" y="360.0100000000002" as="sourcePoint" />
-            <mxPoint x="62.5" y="399.0999999999999" as="targetPoint" />
+            <mxPoint x="68.16000000000008" y="410.0100000000002" as="sourcePoint" />
+            <mxPoint x="62.5" y="449.0999999999999" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="117.5" y="360.0999999999999" />
-              <mxPoint x="117.5" y="399.0999999999999" />
+              <mxPoint x="117.5" y="410.0999999999999" />
+              <mxPoint x="117.5" y="449.0999999999999" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
@@ -239,16 +239,10 @@
           <mxGeometry x="620" y="840" width="100" height="910" as="geometry" />
         </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-33" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="AIsaKvMPGWrzaPVtFiuC-32">
-          <mxGeometry x="45" y="180" width="10" height="200" as="geometry" />
+          <mxGeometry x="45" y="230" width="10" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="AIsaKvMPGWrzaPVtFiuC-46" value="return 前四个符合disCondition并且礼包未完全领取的Map&lt;br&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="AIsaKvMPGWrzaPVtFiuC-32">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-365" y="149" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="30" y="149" />
-            </Array>
-            <mxPoint x="330" y="149" as="sourcePoint" />
-          </mxGeometry>
+        <mxCell id="AIsaKvMPGWrzaPVtFiuC-65" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="AIsaKvMPGWrzaPVtFiuC-32">
+          <mxGeometry x="45" y="130" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-43" value="获取可以展示的页签" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -261,43 +255,43 @@
         </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-47" value="根据活动ID和页签ID，在menulayer获取对应的页签名称；" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="1040" as="sourcePoint" />
-            <mxPoint x="660" y="1040" as="targetPoint" />
+            <mxPoint x="260" y="1090" as="sourcePoint" />
+            <mxPoint x="660" y="1090" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-48" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="1060" as="targetPoint" />
+            <mxPoint x="260" y="1110" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="655" y="1060" />
+              <mxPoint x="655" y="1110" />
             </Array>
-            <mxPoint x="660" y="1060" as="sourcePoint" />
+            <mxPoint x="660" y="1110" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-50" value="根据活动ID和礼包ID，往fightstringname获取对应的礼包名称；" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
           <mxGeometry x="0.15" y="10" relative="1" as="geometry">
-            <mxPoint x="260" y="1120" as="sourcePoint" />
-            <mxPoint x="660" y="1120" as="targetPoint" />
+            <mxPoint x="260" y="1170" as="sourcePoint" />
+            <mxPoint x="660" y="1170" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-51" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="260" y="1150" as="targetPoint" />
+            <mxPoint x="260" y="1200" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="655" y="1150" />
+              <mxPoint x="655" y="1200" />
             </Array>
-            <mxPoint x="660" y="1150" as="sourcePoint" />
+            <mxPoint x="660" y="1200" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-53" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="80" y="1274" as="targetPoint" />
+            <mxPoint x="80" y="1324" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="475" y="1274" />
+              <mxPoint x="475" y="1324" />
             </Array>
-            <mxPoint x="240" y="1270" as="sourcePoint" />
+            <mxPoint x="240" y="1320" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="AIsaKvMPGWrzaPVtFiuC-57" value="页签ID&amp;amp;礼包ID" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1" target="AIsaKvMPGWrzaPVtFiuC-3">
@@ -319,8 +313,38 @@
             <mxPoint x="240" y="1540" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AIsaKvMPGWrzaPVtFiuC-64" value="疑难点：&lt;br&gt;1、中途策划增、删、该配置怎么办？&lt;br&gt;2、在disCondition为限制范围类型的时候，&lt;br&gt;如果超过范围，但是礼包并未领取完毕，怎么判断整个活动的&lt;br&gt;礼包是否领取完毕" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="AIsaKvMPGWrzaPVtFiuC-64" value="疑难点：&lt;br&gt;1、中途策划增、删、该配置怎么办？-检查NewDraw一下&lt;br&gt;2、在disCondition为限制范围类型的时候，&lt;br&gt;如果超过范围，但是礼包并未领取完毕，怎么判断整个活动的&lt;br&gt;礼包是否领取完毕" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="1000" y="1525" width="350" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="AIsaKvMPGWrzaPVtFiuC-46" value="return&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry x="0.0014" relative="1" as="geometry">
+            <mxPoint x="260" y="1050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="655" y="1050" />
+            </Array>
+            <mxPoint x="955" y="1050" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AIsaKvMPGWrzaPVtFiuC-67" value="return&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry x="0.0014" relative="1" as="geometry">
+            <mxPoint x="950" y="1010" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="790" y="1010" />
+              <mxPoint x="745" y="1010" />
+            </Array>
+            <mxPoint x="680" y="1010" as="sourcePoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AIsaKvMPGWrzaPVtFiuC-68" value="前四个符合disCondition并且礼包未完全领取的Map" style="html=1;verticalAlign=bottom;endArrow=block;labelBackgroundColor=none;fontFamily=Verdana;fontSize=12;edgeStyle=elbowEdgeStyle;elbow=vertical;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="990" as="sourcePoint" />
+            <mxPoint x="675" y="990" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="675.0699999999999" y="990" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
